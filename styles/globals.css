@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /*font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;*/
+  font-family: 'EB Garamond', serif;  
+  background: #F3CEA1;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  font-size: 20px;
+  background-color:  #F3DFC1;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 25px;
+  box-shadow: 1px 6px 5px -2px gray;
+}
+
+nav a:hover
+{
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+}
+
+
+
+.Logo{
+  justify-self: start;
+  max-height: 30px;
+  margin-top: -25px;
+
+}
+
+.pic{
+  width: 75px;
+  height: 75px;
+}
+
+.Logo:hover{
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 0px;
+  color: black;
+}
+
+.Logo2{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.HBox{
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;  
+  padding: 200px;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  gap: 60px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.welcome{
+  grid-row: span 2;
+  align-self: center;
+  margin: 0 auto;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.photo{
+  border-radius: 30px;
+  justify-self: center;
+  grid-row: span 2;
+  box-shadow: 1px 6px 5px -2px gray;
+}
+
+.first{
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.second{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  grid-row: span 2;
+}
+
+.about{
+  max-width: 1000px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: start;
+  gap: 15px;
+  padding: 5px;
+  padding-bottom: 25px;
+}
+
+.education{
+  max-width: 800px;
+  margin: 40px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  border-top: solid 1px black;
+}
+
+.contact{
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 100px;
+  gap: 10px;
+}
+
+.contact a:hover{
+  text-decoration: underline;
+}
+
+p{
+  font-size: 18px;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+@media (max-width: 630px) {
+  .HBox{
+    max-width: 350px;
+    grid-template-columns: 1fr;
+    padding-top: 10px;   
+  }
+
+  .welcome{
+    grid-row: span 1;
+    grid-row-start: 1;
+  }
+
+}
+
+@media (max-width: 432px) {
+  .about{
+    max-width: 350px;
+  } 
+  .HBox{
+    padding: 50px;
+  } 
+}
+
+@media (max-width: 730px){
+  .contact{
+    margin: 0 auto;
+    font-size: 80%;
+  }
+
+  .first{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 607px){
+  .contact{
+    margin: 0 auto;
+    font-size: 50%;
+  }
+}
