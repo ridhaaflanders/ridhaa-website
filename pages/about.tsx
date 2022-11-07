@@ -24,12 +24,12 @@ const about = () => {
             </div>             
           </div>  
 
-          <p>On a more personal level. My hobbies include reading and film. My interests are history and politics. I enjoy hanging with my friends.
+          <p>On a more personal level. My hobbies include reading and film. My interests are history and politics. I enjoy hanging out with my friends.
              And I have recently taken on vide game development as a hobby.  </p> 
 
            <h1>Why I Want Become A Developer At SOVTECH</h1>
            <p>While i have had a pretty great education I am aware that there are still many gaps in my knowledge. Things that 
-              you can't learn at school or on the internet. If I want to become the software developer I know I can be; I need
+              you cannot learn at school or on the internet. If I want to become the software developer I know I can be, I need
               to work in an enviroment where I can be challenged, where I can work on cool and interesting projects, where I can 
               recieve mentorship and guidance.</p>  
 
