@@ -11,9 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className='HBox'>
+      <div className="HBox">
         <h1 className={styles.title}>
-          Hi. I'm Ridhaa. A Developer.
+          Hi. I am Ridhaa. A Developer.
         </h1>
         <h1 className="welcome">
           Welcome
